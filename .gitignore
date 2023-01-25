@@ -8,7 +8,7 @@
 *.bak
 *.ini
 #*.log
-*.md
+#*.md
 #*.yaml
 *.iml
 
