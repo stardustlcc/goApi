@@ -3,6 +3,7 @@ package routers
 import (
 	"dwd-api/app/api/tag"
 	"dwd-api/app/api/user"
+	"dwd-api/pkg/util"
 
 	"github.com/gin-gonic/gin"
 )
@@ -10,6 +11,7 @@ import (
 func NewRouter() *gin.Engine {
 
 	r := gin.New()
+	r.Use(util.Cors())
 	r.Use(gin.Logger())
 	r.Use(gin.Recovery())
 
