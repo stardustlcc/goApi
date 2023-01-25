@@ -9,7 +9,7 @@
         config.yaml 配置文件
     global          常量配置
     pkg             一些通用配置
-    storage/logs    日志
+    logs            日志
     main.go
     go.mod
 
