@@ -1,6 +1,6 @@
 Server:
   RunMode: debug
-  HttpPort: 8088
+  HttpPort: 8092
   ReadTimeout: 60
   WriteTimeout: 60
 App:
@@ -12,8 +12,8 @@ App:
 Database:
   DBType: mysql
   Username: root
-  Password: ~
-  Host: ~
+  Password: 123456
+  Host: 192.168.1.5:3306
   DBName: go-service
   TablePrefix: ''
   Charset: utf8
@@ -22,7 +22,7 @@ Database:
   MaxOpenConns: 30
   MaxLifeTime: 10
 Redis:
-  Host: ~
-  Password: ~
+  Host: 192.168.1.5:6379
+  Password: 123456
   DbIndex: 0
   IsAuth: True

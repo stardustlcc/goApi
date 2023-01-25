@@ -1,5 +1,5 @@
-#!storage/logs/
-#!configs/
+!storage/logs/
+!configs/
 .idea
 
 *.swap
@@ -7,9 +7,9 @@
 *.swo
 *.bak
 *.ini
-#*.log
-#*.md
-#*.yaml
+*.log
+*.md
+*.yaml
 *.iml
 
 go.sum
